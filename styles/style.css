@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(29, 27, 27);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  padding: 35px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin: 30px 12px 30px 0;
+  cursor: pointer;
+}
+
+.move-button:hover {
+  background-color: rgb(73, 73, 73);
+  border-color: transparent;
+  transition: 0.15s;
+}
+
+.move-button:active {
+  background-color: rgb(37, 37, 37);
+  transition: 0.15s;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.score {
+  margin-top: 60px;
+  font-weight: 700;
+}
+
+.reset-button {
+  padding: 12px 25px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.reset-button:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+.reset-button:active {
+  background-color: rgb(65, 65, 65);
+  color: white;
+}
